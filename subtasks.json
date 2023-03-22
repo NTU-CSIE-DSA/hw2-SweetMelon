@@ -1,0 +1,36 @@
+{
+	"global_validators": ["val.cpp"],
+	"subtasks": {
+		"samples": {
+			"index": 0,
+			"score": 0,
+			"text": "sample", 
+			"validators": [""]
+		},
+		"s1": {
+			"index": 1,
+			"score": 10,
+			"text": "NM <= 1000", 
+			"validators": [""]
+		}, 
+		"s2": {
+			"index": 2,
+			"score": 15,
+			"text": "the graph is a skewed tree",
+			"validators": ["val_s2.cpp"]
+		}, 
+		"s3": {
+			"index": 3,
+			"score": 15,
+			"text": "d = M",
+			"validators": ["val_s3.cpp"]
+		},
+		"s4": {
+			"index": 4,
+			"score": 60,
+			"text": "d = M",
+			"validators": [""]
+		}
+	}
+}
+
