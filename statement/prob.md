@@ -4,7 +4,7 @@ Devine Sweetmelon Airplane (a.k.a. DSA) is an internationally renowned group com
 
 Chicken-Soup likes to eat sweet melon at most. To eat as many sweet melons as ze can, ze investigated and obtained the sales plans of DSA for the next $M$ days. According to the sales plans, every day, each company in DSA will launch a sales event that lasts for several days. Where the sales event of the company $i$ launched on the day $j$ is to offer sweet melon at price $c_{ij}$, which lasts for $d_{ij}$ days. Which means Chicken-Soup can buy a sweet melon at price $c_{ij}$ on day $j, j + 1, \dots, j + d_{ij}$.
 
-To simplify the purchase process, Chicken-Soup decided to sign a contract with exactly one company in DSA every day. The contract required that ze must buy exactly one sweet melon from the contracting company and each of its offspring companies on the same day. Although ze wants to buy all the sweet melons, the daily pocket money for Chicken-Soup is only $C$ dollars. Can you help him calculate how many sweet melons ze can eat at most every day?
+To simplify the purchase process, Chicken-Soup decided to sign a contract with exactly one company in DSA every day. The contract required that ze must buy exactly one sweet melon from the contracting company and each of its offspring companies on the same day. Although ze wants to buy all the sweet melons, the daily pocket money for Chicken-Soup is only $C$ dollars. Note that Chicken-Soup can't preserve daily pocket money to next day. Can you help him calculate how many sweet melons ze can eat at most every day?
 
 ## Input
 
@@ -80,24 +80,24 @@ No other constraint
 
 ## Hint
 
-Here is the details of sample 1:
+Here are the details of sample 1:
 
 The organization graph of DSA is:
 
 ![](https://i.imgur.com/iwjpKgn.png)
 
-And the following table shows the price of sweet melons sold by each company everyday.
+And the following table shows the price of sweet melons sold by each company every day.
 
 | company | day 1 | day2  | day 3    |
 | ------- | ----- | ----- | -------- |
 | 1       | 10    | 10, 1 | 10, 1, 5 |
 | 2       | 1     | 1, 10 | 10, 5    |
-| 3       | 2     | 2, 1  | 2, 10    |
-| 4       | 1     | 1, 1  | 1, 9     |
-| 5       | 8     | 8, 2  | 8, 2, 3  |
+| 3       | 2     | 2, 1  | 2, 9     |
+| 4       | 1     | 1, 2  | 1, 2, 3  |
+| 5       | 8     | 8, 1  | 8, 10    |
 
-First day, Chicken-Soup can sign a contract with company $2$ and buy sweet melons at price $1, 1, 8$ from company $2, 4, 5$ respectively.
+The first day, Chicken-Soup can sign a contract with company $2$ and buy sweet melons at prices $1, 1, 8$ from companies $2, 4, 5$ respectively.
 
-Second day, Chicken-Soup can sign a contract with company $1$ and buy sweet melons at price $1, 1, 1, 1, 2$ from company $1, 2, 3, 4, 5$ respectively.
+The second day, Chicken-Soup can sign a contract with company $1$ and buy sweet melons at prices $1, 1, 2, 2, 1$ from companies $1, 2, 3, 4, 5$ respectively.
 
-Third day, Chicken-Soup can sign a contract with company $5$ and buy sweet melons at price $8$ from company $5$.
+The third day, Chicken-Soup can sign a contract with company $5$ and buy sweet melons at price $8$ from company $5$.
