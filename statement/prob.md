@@ -8,23 +8,23 @@ To simplify the purchase process, Chicken-Soup decided to sign a contract with e
 
 ## Input
 
-The first line contains three integers $N, M$ and $C$ - - the company count in DSA, the length of sales plan Chicken-Soup obtained and Chicken-Soup's daily pocket money.
+The first line contains three integers $N, M$ and $C$ - - the company counts in DSA, the length of sales plan Chicken-Soup obtained, and Chicken-Soup's daily pocket money.
 
-The second line contains $N-1$ integers $x_2$ to $x_N$, $x_i$ represent the parent company of the company $i$
+The second line contains $N-1$ integers $x_2$ to $x_N$, $x_i$ represents the parent company of the company $i$
 
-The following input contains $M$ part, the $j$-th part represent the data of $j$-th day.
+The following input contains $M$ part, and the $j$-th part represents the data of $j$-th day.
 
-Each part contains $N$ lines, the $i$-th line of $j$-th part contains two integer $c_{ij}, d_{ij}$ - - the data of sales event of the company $i$ on day $j$
+Each part contains $N$ lines, and the $i$-th line of $j$-th part contains two integer $c_{ij}, d_{ij}$ - - the data of sales event of the company $i$ on day $j$
 
 ## Output
 
-The output should cosist of $N$ lines.
+The output should consist of $M$ lines.
 
 The $i$-th line should be the number of sweet melon Chicken-Soup can eat at most on day $i$.
 
 ## Constraint
 
-- $1 \le NM \le 5\times 10^5$
+- $1 \le NM \le 10^6$
 - $1 \le C \le 10^9$
 - $1 \le x_i \le N$
 - $0 \le d_{ij} \le M$
