@@ -21,7 +21,8 @@ signed main (signed argc, char** argv) {
   int p[MAXNM + 1] = {};
   for (int i = 2; i <= n; ++i) {
     p[i] = inf.readInt(1, n, "node");
-    inf.readSpace();
+    if (i != n)
+      inf.readSpace();
     degree[p[i]]++;
   }
   inf.readEoln();

@@ -61,7 +61,8 @@ int main(int argc, char *argv[]) {
   gen_tree(n);
   dfs(1 ,1);
   for (int i = 2; i <= n; ++i) {
-    cout << tree_output[i] << ' ';
+    cout << tree_output[i];
+    if (i != n) cout << ' ';
   }
   cout << '\n';
 

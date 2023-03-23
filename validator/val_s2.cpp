@@ -19,7 +19,8 @@ signed main (signed argc, char** argv) {
 
   for (int i = 2; i <= n; ++i) {
     inf.readInt(i - 1, i - 1, "node");
-    inf.readSpace();
+    if (i != n)
+      inf.readSpace();
   }
   inf.readEoln();
 
