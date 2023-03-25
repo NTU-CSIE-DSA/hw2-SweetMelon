@@ -78,6 +78,37 @@ No other constraint
 1
 ```
 
+### Sample Input 2
+
+```
+4 4 20
+1 2 3
+5 4
+10 4
+15 4
+20 4
+20 4
+5 4
+10 4
+15 4
+15 4
+20 4
+5 4
+10 4
+10 4
+15 4
+20 4
+5 4
+```
+
+### Sample Output 2
+```
+1
+1
+3
+4
+```
+
 ## Hint
 
 Here are the details of sample 1:
