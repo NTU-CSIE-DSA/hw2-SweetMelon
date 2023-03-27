@@ -36,7 +36,7 @@ The $i$-th line should be the number of sweet melon Chicken-Soup can eat at most
 
 ### Subtask 2 (15pts)
 
-- $x_i = i - 1, i \in \{2, 3, \dots, N\}$
+- $x_i = i - 1, i \in \lbrace 2, 3, \dots, N\rbrace$
 
 ### Subtask 3 (15pts)
 
