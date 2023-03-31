@@ -119,7 +119,19 @@ The organization graph of DSA is:
 
 And the following table shows the price of sweet melons sold by each company every day.
 
-```
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: 1px solid white;
+}
+blockquote {
+    border-left: solid blue;
+    padding-left: 10px;
+}
+</style>
+
 | company | day 1 | day2  | day 3    |
 | ------- | ----- | ----- | -------- |
 | 1       | 10    | 10, 1 | 10, 1, 5 |
@@ -127,7 +139,6 @@ And the following table shows the price of sweet melons sold by each company eve
 | 3       | 2     | 2, 1  | 2, 9     |
 | 4       | 1     | 1, 2  | 1, 2, 3  |
 | 5       | 8     | 8, 1  | 8, 10    |
-```
 
 The first day, Chicken-Soup can sign a contract with company $2$ and buy sweet melons at prices $1, 1, 8$ from companies $2, 4, 5$ respectively.
 
