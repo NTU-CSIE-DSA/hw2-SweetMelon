@@ -131,12 +131,6 @@ signed main (int argc, char** argv) {
       }
       heap_push(j, c, i + d);
     }
-#ifdef DEBUG
-    for (int j = 1; j <= n; ++j) {
-      printf("%lld,%lld ", heap[j].stp ,heap_pool[heap[j].stp + 1]);
-    }
-    printf("\n");
-#endif
 
     int max = 0;
     dfs (1, &max);
